@@ -1,0 +1,5 @@
+w = list(input())
+w[0] = w[0].upper()
+print(*w, sep="")
+# print("".join(map(str,w)))
+# print("".join(i for i in w))
